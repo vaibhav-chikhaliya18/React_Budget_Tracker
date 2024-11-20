@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #d43f00;
+}
+
+.budget-section, .income-section, .expense-section {
+  margin-bottom: 20px;
+}
